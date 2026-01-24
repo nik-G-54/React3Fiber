@@ -148,7 +148,7 @@ const Torus=({position,size,color})=>{
      <mesh position={position} ref={ref}>
       <torusKnotGeometry args={size}/>    
       <meshStandardMaterial color={color} wireframe/>
-      <MeshWobbleMaterial factor={0} speed={20}/>
+      {/* <MeshWobbleMaterial factor={0} speed={20}/> */}
      
      </mesh>
   )
@@ -158,7 +158,7 @@ const App = () => {
   return (
     <>  
 
-    <div className="w-screen h-full  bg-black">
+    <div className="w-screen h-screen overflow-hidden bg-black">
       
         <h3 className="text-amber-50 bg-black text-6xl justify-center text-center">React 3 Fiber </h3>
       <Canvas camera={{ position: [0, 0, 5] }}>
