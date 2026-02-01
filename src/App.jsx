@@ -184,6 +184,9 @@ const App = () => {
         <Sphere2 position={[-1,-3,-1]} color={"yellow"} size={[1,30,30]}/>
         <Sphere2 position={[-1,-3,-1]} color={"yellow"} size={[8,30,30]}/>
         <TorusGeometry position={[5,0,0]} size={[2,0.3,30,100]} color="red"/>
+        <TorusGeometry position={[5,0,0]} size={[2,0.3,30,100]} color="red"/>
+        <TorusGeometry position={[5,0,0]} size={[2,0.3,30,100]} color="red"/>
+        <TorusGeometry position={[5,0,0]} size={[2,0.3,30,100]} color="red"/>
         <Torus position={[-5,0,0]} size={[1.3,0.2,64,8,2,3]} color={  "blue" }/>
        <OrbitControls  />
       </Canvas>
